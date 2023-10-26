@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SpeechRecognition/1.0.0": {
+        "dependencies": {
+          "Microsoft.Speech": "11.0.0.0"
+        },
+        "runtime": {
+          "SpeechRecognition.dll": {}
+        }
+      },
+      "Microsoft.Speech/11.0.0.0": {
+        "runtime": {
+          "Microsoft.Speech.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.7400.345"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SpeechRecognition/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Speech/11.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
